@@ -1,0 +1,15 @@
+[project]
+name = "onesmartcontrolpy"
+version = "0.0.1"
+authors = [
+	{ name="PimDoos" },
+]
+description = "Python wrapper for One Smart Control"
+readme = "README.md"
+
+[project.urls]
+"Homepage" = "https://github.com/PimDoos/onesmartcontrolpy"
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
