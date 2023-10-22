@@ -90,6 +90,7 @@ async def run():
 			
 			if len(device_attributes) >= MAX_APPARATUS_POLL:
 				await fetch_attribute_values(device, device_id, device_attributes)
+				device_attributes = list()
 		
 		if len(device_attributes) > 0:
 			await fetch_attribute_values(device, device_id, device_attributes)
